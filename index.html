@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -10,9 +13,75 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Benjamins Receptsida</title>
+
+    <script
+      src="https://kit.fontawesome.com/4b39a549d2.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <header>Välkommen till Benjamins receptsida!</header>
+    <div class="banner">
+      <div class="sign">
+        <header class="glow">Välkommen till Benjamins receptsida!</header>
+        <div class="sign_up">
+          <button type="Button" onclick="window.location.href='Sign up.html'">
+            Sign Up
+          </button>
+        </div>
+        <div class="sign_in">
+          <button type="Button" onclick="window.location.href='Sign in.html'">
+            Sign In
+          </button>
+        </div>
+      </div>
+
+      <div class="logos">
+        <div class="Logo1">
+          <img src="FICA.PNG" alt="Fica" />
+        </div>
+        <p class="intro">
+          Välkommen till den bästa recepthemsidan på internet! Vi har alla
+          recept från oxfilé till kycklingklubba. Och sen ingenting annat... Men
+          det behövs inte! Testa dessa recept och njut av den fantastiska
+          smaken!
+        </p>
+        <div class="Logo2">
+          <img src="FICA.PNG" alt="Fica" />
+        </div>
+      </div>
+    </div>
+    <div class="Mat">
+      <div class="oxfile">
+        <img src="helstekt_oxfilé.jpg" alt="oxfile" />
+      </div>
+      <div class="kyckling">
+        <img src="kycklingklubbor.jpg" alt="kyckling" />
+      </div>
+    </div>
+    <div class="R">
+      <div class="R1">
+        <p>
+          En hel stek av oxfilé hör till de verkligt festliga tillfällena och
+          inget man vill misslyckas med. Du lyckas genom en härligt brynt yta,
+          låg ugnsvärme och stenkoll på innertemperaturen. Här är ett väl
+          beprövat grundrecept!
+        </p>
+        <i class="fa fa-steak"></i>
+        <button type="button">Gå till receptet</button>
+        <i class="fa fa-steak"></i>
+      </div>
+      <div class="R2">
+        <p>
+          Laga knapriga kycklingklubbor i ugn kryddade med rosmarin. Här är ett
+          grundrecept på ugnsrostade kycklingklubbor som du kan servera med dina
+          favorittillbehör, som potatis eller ris. Servera med bearnaise eller
+          annan god sås.
+        </p>
+        <i class="fas fa-drumstick-bite"></i>
+        <button type="button">Gå till receptet</button>
+        <i class="fas fa-drumstick-bite"></i>
+      </div>
+    </div>
   </body>
 </html>
